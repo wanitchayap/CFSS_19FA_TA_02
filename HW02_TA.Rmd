@@ -38,7 +38,7 @@ knitr::opts_chunk$set(echo = FALSE)
 - Look at the data structure, particularly the month column. 
 - What type of data is it? 
 - What type of data should it be? 
-
+- You might want to look at `month.abb`. Just type it in the command line and see what does it contain!
 
 ## FAQ
 
@@ -51,3 +51,31 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - There is no specific number of graphs/analysis you need to do to get excellent 
 - The examples Ben gave is a great place to start off your homework, but don't be restricted by it
+
+### 1. Do I need to make the graphs look exactly like the example?
+
+- You can do things differently from those example! Try to think why would you prefer it your own ways more than the others. You can explain your reasoning in the writing for each question. 
+- This also applies to writing codes in general. You don't need to do exactly what is taught in class. Let us know why you think your way suits your goals more!
+
+### 1. I write every part of the code right, but my code doesn't work!
+
+- One common mistake, especially when you work with string, is the case. R is very picky, and if the dataset record race and "White", typing "white" in your code would not work.
+- Another mistake is that, you may call variable that is actually not existed! To input something in a function, you need to define it first.
+
+### 1. I got a permission error when I try to push my commit :(
+
+- You may accidentally link your local repository to the class repo, not your fork one on git. 
+- You can avoid this by make sure you clone the url from your fork, and do not get the repo by downloading the zip file.
+- [Here](https://github.com/uc-cfss/Discussion/issues/4) is how you want to resolve the problem. You will need to use a shell to fix the linking problem. But you won't use a shell when you submit your works.
+
+### 1. What files to push?
+
+- .Rmd
+- .md
+- Most people don't realize you have to push this: the folder with all the plots!
+
+### 1. Do we need to edit README.md
+
+- Yes! Make your README.md a guide for whoever visit your repo. 
+- Explain what is this repo for
+- Make link to each important files (like what you do in HW1)
